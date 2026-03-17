@@ -8,7 +8,7 @@ WITH sq_v_adgapd1 AS (
 
   SELECT * 
   
-  FROM {{ source('toolkit_e2e_v11_source', 'sq_v_adgapd1') }}
+  FROM {{ source('toolkit_e2e_v11_source', 'V_AS400PAX') }}
 
 )
 ,

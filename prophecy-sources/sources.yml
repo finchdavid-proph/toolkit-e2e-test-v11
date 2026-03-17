@@ -3,4 +3,71 @@ version: 2
 sources:
 - name: "toolkit_e2e_v11_source"
   tables:
-  - name: "sq_v_adgapd1"
+  - name: "V_AS400PAX"
+    columns:
+    - name: "GUEST_APPOINTMENT_ID"
+      dataType:
+        type: "Float"
+    - name: "GUEST_ID"
+      dataType:
+        type: "Integer"
+    - name: "BOOKING_ID"
+      dataType:
+        type: "Integer"
+    - name: "OFFERED_INVENTORY_ID"
+      dataType:
+        type: "Float"
+    - name: "CREATION_USER_ID"
+      dataType:
+        type: "String"
+    - name: "CREATION_DTM"
+      dataType:
+        type: "Timestamp"
+    - name: "LAST_UPDATE_USER_ID"
+      dataType:
+        type: "String"
+    - name: "LAST_UPDATE_DTM"
+      dataType:
+        type: "Timestamp"
+    - name: "ACTIVE_FLAG"
+      dataType:
+        type: "Integer"
+    - name: "ASR_BOOKING_ID"
+      dataType:
+        type: "Float"
+    - name: "GUEST_APPOINTMENT_DATE"
+      dataType:
+        type: "Timestamp"
+    - name: "GUEST_APPOINTMENT_TIME_DESC"
+      dataType:
+        type: "String"
+    - name: "PRODUCT_CODE"
+      dataType:
+        type: "String"
+    - name: "PRODUCT_DESC"
+      dataType:
+        type: "String"
+    - name: "GRANTOR_GUEST_ID"
+      dataType:
+        type: "Integer"
+    - name: "GRANTOR_BOOKING_ID"
+      dataType:
+        type: "Integer"
+    - name: "ABSHIP"
+      dataType:
+        type: "String"
+    - name: "ABSDDT"
+      dataType:
+        type: "Integer"
+    - name: "ABBKID"
+      dataType:
+        type: "Integer"
+    - name: "ABPAID"
+      dataType:
+        type: "Integer"
+    - name: "ABSDDT_DT"
+      dataType:
+        type: "Timestamp"
+    - name: "AUDIT_ID"
+      dataType:
+        type: "String"
