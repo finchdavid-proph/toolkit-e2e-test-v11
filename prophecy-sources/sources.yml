@@ -3,7 +3,7 @@ version: 2
 sources:
 - name: "toolkit_e2e_v11_source"
   tables:
-  - name: "V_AS400PAX"
+  - name: "sq_v_adgapd1"
     columns:
     - name: "GUEST_APPOINTMENT_ID"
       dataType:

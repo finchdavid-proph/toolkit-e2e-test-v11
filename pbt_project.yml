@@ -55,7 +55,7 @@ sqlSources:
     - prophecy-sources/sources.yml
     createdAt: '2026-01-01 00:00:00'
     tables:
-    - name: V_AS400PAX
+    - name: sq_v_adgapd1
       schema:
         entityType: ''
         providerType: bigquery
@@ -151,15 +151,15 @@ flags:
 pipelineConfigurations: {}
 projectConfigurations: {}
 sqlOrchestratorPipelines:
-  .prophecy/metadata/sqlorchestratorpipeline/medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT:
-    name: medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT
+  .prophecy/metadata/sqlorchestratorpipeline/medium__m_ADC_GUEST_APPOINTMENT:
+    name: medium__m_ADC_GUEST_APPOINTMENT
     schema: null
     description: null
     author: ''
     files:
-    - pipelines/medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT.py
-    - .prophecy/ide/pipelines/medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT.json
-    - models/medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT/schema.yml
-    - models/medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT/medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT__main.sql
+    - pipelines/medium__m_ADC_GUEST_APPOINTMENT.py
+    - .prophecy/ide/pipelines/medium__m_ADC_GUEST_APPOINTMENT.json
+    - models/medium__m_ADC_GUEST_APPOINTMENT/schema.yml
+    - models/medium__m_ADC_GUEST_APPOINTMENT/medium__m_ADC_GUEST_APPOINTMENT__main.sql
     createdAt: '2026-01-01 00:00:00'
 sqlBusinessApps: {}
